@@ -1,8 +1,7 @@
 ---
-name: Super-Linter
+name: Lint code base
 on: push
 jobs:
-  super-lint: null
   name: Lint code base
   runs-on: ubuntu-latest
   steps:
